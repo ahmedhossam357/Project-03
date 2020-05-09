@@ -1,0 +1,388 @@
+.logo
+{
+    font-size: 26px;
+}
+nav ul li
+{
+    margin: 0px 10px;
+    padding: 0px 5px;
+    font-weight: 600;
+}
+.title .underline
+{
+    background-color: #fff;
+    height: 2px;
+    margin-left: 13%;
+    width: 0%;
+    transition: 1s all;
+}
+.title:hover .underline
+{
+    width: 70%;
+}
+header
+{
+    background-image: url('../image/intro-bg.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+header .content h1
+{
+    font-size: 70px;
+}
+header .content h2
+{
+    font-size: 32px;
+}
+header .content h2::after
+{
+    content:" |";
+    margin: 0px 5px;
+    animation-name: e;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes e
+{
+    1%{content: "C |";}
+    2%{content: "CE |";}
+    3%{content: "CEO |";}
+    4%{content: "CEO D |";}
+    5%{content: "CEO De |";}
+    6%{content: "CEO Dev |";}
+    7%{content: "CEO DevFo |";}
+    8%{content: "CEO DevFol |";}
+    9%{content: "CEO DevFoli |";}
+    10%{content: "CEO DevFolio |";}
+    11%{content: "CEO DevFoli |";}
+    12%{content: "CEO DevFol |";}
+    13%{content: "CEO DevFo |";}
+    14%{content: "CEO DevFo |";}
+    15%{content: "CEO DevF |";}
+    16%{content: "CEO Dev |";}
+    17%{content: "CEO De |";}
+    18%{content: "CEO D |";}
+    19%{content: "CEO  |";}
+    20%{content: "CEO |";}
+    21%{content: "CE |";}
+    22%{content: "C |";}
+    24%{content: " |";}
+    25%{content: "W |";}
+    26%{content: "We |";}
+    27%{content: "Web |";}
+    28%{content: "Web  |";}
+    29%{content: "Web D |";}
+    30%{content: "Web De |";}
+    31%{content: "Web Dev |";}
+    32%{content: "Web Deve |";}
+    33%{content: "Web Devel |";}
+    34%{content: "Web Develo |";}
+    35%{content: "Web Develop |";}
+    36%{content: "Web Develope |";}
+    37%{content: "Web Developer |";}
+    38%{content: "Web Develope |";}
+    39%{content: "Web Develop |";}
+    40%{content: "Web Develo |";}
+    41%{content: "Web Devel |";}
+    42%{content: "Web Deve |";}
+    43%{content: "Web Dev |";}
+    44%{content: "Web De |";}
+    45%{content: "Web Des |";}
+    46%{content: "Web Desi |";}
+    47%{content: "Web Desig |";}
+    48%{content: "Web Design |";}
+    49%{content: "Web Designe |";}
+    50%{content: "Web Designer |";}
+    51%{content: "Web Designe |";}
+    52%{content: "Web Design |";}
+    53%{content: "Web Desig |";}
+    54%{content: "Web Desi |";}
+    55%{content: "Web Des |";}
+    56%{content: "Web De |";}
+    57%{content: "Web D |";}
+    58%{content: "Web  |";}
+    59%{content: "Web |";}
+    60%{content: "We |";}
+    61%{content: "W |";}
+    63%{content: " |";}
+    64%{content: "F |";}
+    65%{content: "Fr |";}
+    66%{content: "Fro |";}
+    67%{content: "Fron |";}
+    68%{content: "Front |";}
+    69%{content: "Fronte |";}
+    70%{content: "Fronten |";}
+    71%{content: "Frontend |";}
+    72%{content: "Frontend  |";}
+    73%{content: "Frontend D |";}
+    74%{content: "Frontend De |";}
+    75%{content: "Frontend Dev |";}
+    76%{content: "Frontend Deve |";}
+    77%{content: "Frontend Devel |";}
+    78%{content: "Frontend Develo |";}
+    79%{content: "Frontend Develop |";}
+    80%{content: "Frontend Develope |";}
+    81%{content: "Frontend Developer |";}
+    82%{content: "Frontend Develope |";}
+    83%{content: "Frontend Develop |";}
+    84%{content: "Frontend Develo |";}
+    85%{content: "Frontend Devel |";}
+    86%{content: "Frontend Deve |";}
+    87%{content: "Frontend Dev |";}
+    88%{content: "Frontend De |";}
+    89%{content: "Frontend D |";}
+    90%{content: "Frontend  |";}
+    91%{content: "Frontend |";}
+    92%{content: "Fronten |";}
+    93%{content: "Fronte |";}
+    94%{content: "Front |";}
+    95%{content: "Fron |";}
+    96%{content: "Fro |";}
+    97%{content: "Fr |";}
+    98%{content: "F |";}
+    100%{content: " |";}
+}
+.about, .services
+{
+    background-color: #f0f0f0;
+}
+.about .content
+{
+    box-shadow: -1px -1px 2px gray;
+}
+.about .content .inner .img
+{
+    width: 50%;
+}
+.bline
+{
+    width: 25%;
+    height: 3px;
+    background-color: blue;
+}
+.content span
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+.progress
+{
+    height: 10px;
+    
+}
+.perc
+{
+    height: 50px;
+    margin: 0px 10px;
+}
+.percentage
+{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.blueline
+{
+    background-color: blue;
+    height: 5px;
+    width: 15%;
+    bottom: 0%;
+    left: 50%;
+}
+.counter
+{
+    background-image: url('../image/counters-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.icon
+{
+    font-size: 40px;
+    position: relative;
+    margin: 20px 0px;
+    border: 10px solid rgb(0, 0,255);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    left: 28%;
+    transition: 1s all;
+}
+.icon:hover i
+{
+    color: #fff;
+    width: 100%;
+}
+.icon:hover     
+{
+    border: 10px solid rgb(30,144,255);
+    background-color: blue;
+    color: #fff;
+}
+.counter
+{
+    background-image: url('../image/post-3.jpg');
+    background-size: 100% 100%;
+    height: 75vh;
+    background-attachment: fixed;
+}
+.overlay5
+{
+    background-color: rgba(30,144,255,0.8);
+    height: 50vh;
+}
+.overlayg
+{
+    background-color: #f0f0f0;
+    height: 25vh;
+}
+.counter .overlay5 .icon1
+{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 15%;
+    margin: 20px 0px;
+}
+.counter .overlay5 .icon1 i
+{
+    font-size: 38px;
+    color: #fff;
+}
+.portofolio
+{
+    background-color: #f0f0f0;
+}
+.portofolio span
+{
+    color: rgb(30,144,255);
+}
+.icon2 i
+{
+    border: 1px solid rgb(30,144,255);
+    border-radius: 50%;
+    color: rgb(30,144,255);
+    padding: 10px;
+}
+.astc img
+{
+    transition: 1s all;
+}
+.astc:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.card
+{
+    border: none;
+    box-shadow: 0px 1px 1px gray;
+}
+.intro
+{
+    background-image: url('../image/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.overlay6
+{
+    background-color: rgba(30,144,255,0.7);
+    height: 100vh;
+    width: 100%;
+}
+.intro .image
+{
+    width: 20%;
+}
+.intro i
+{
+    font-size: 30px;
+    color: rgb(30,144,255);
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 20px;
+}
+.blog
+{
+    background-color: #f0f0f0;
+}
+.card-body .one .image1
+{
+    width: 30px;
+    height: 30px;
+}
+.s
+{
+    font-size: 15px;
+}
+.mine
+{
+    background-color: rgb(30,144,255);
+    color: #fff;
+    padding: 0px 15px;
+    bottom: -5%;
+    left: 37%;
+}
+footer
+{
+    background-image: url('../image/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 150%;
+}
+.overlay8
+{
+    background-color: rgba(30,144,255,0.8);
+    height: 100%;
+}
+.content20
+{
+    width: 100%;
+}
+.more
+{
+    font-size: 29px;
+}
+.more-i p
+{
+    font-size: 19px;
+}
+.more-i i
+{
+    
+    color: rgb(30,144,255);
+    font-size: 20px;
+    margin: 0px 5px 0px 0px;
+}
+.more-i .uo
+{
+    margin: 15px 0px;
+}
+.more-i .ai
+{
+    color: #000;
+    background-color: #fff;
+    border: 3px solid rgb(30,144,255);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 22px;
+}
+.more-i .ai:hover
+{
+    color: #fff;
+    background-color: rgb(30,144,255);
+    border: 3px solid rgb(0, 0,255);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 22px;
+}
+.f
+{
+    font-size: 18px;
+}
